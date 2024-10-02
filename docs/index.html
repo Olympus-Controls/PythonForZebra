@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Company Tutorial</title>
+    <title>Zebra FS/VS-Python Integration</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
-
 </head>
 
 <body>
     <header>
         <img src="oly_logo.png" alt="Olympus Controls Logo" class="logo">
         <h1>Controlling Zebra cameras with Python</h1>
+        <img src="camera.webp" alt="Repo Banner" class="banner">
     </header>
 
     <nav>
@@ -29,11 +29,14 @@
         <section id="introduction">
             <h2>Introduction</h2>
             <p>This is a dependency-free guide to controlling a Zebra FS or VS camera with Python.</p>
+            <a href="https://github.com/Olympus-Controls/PythonForZebra">
+                <h3>Repository Link</h3>
+            </a>
         </section>
 
         <section id="default-settings">
             <h2>Default Settings</h2>
-            <p>These are the default values for the camera</p>
+            <p>These are the default settings for the camera:</p>
             <ul>
                 <li><strong>Host:</strong> 192.168.1.200</li>
                 <li><strong>Control Port:</strong> 107</li>
@@ -44,7 +47,7 @@
 
         <section id="usage">
             <h2>Usage</h2>
-            <p>The application includes a CLI you can use to quickly control your camera from the terminal.</p>
+            <p>The repository includes a CLI you can use to quickly control your camera from the terminal:</p>
             <pre><code class="language-python">
 # Trigger the camera
 python zebra -t
